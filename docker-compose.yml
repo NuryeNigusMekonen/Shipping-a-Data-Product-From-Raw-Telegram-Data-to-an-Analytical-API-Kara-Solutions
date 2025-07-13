@@ -1,0 +1,92 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: telegram_postgres
+    restart: always
+    environment:
+      POSTGRES_DB: telegramdb
+      POSTGRES_USER: telegramuser
+      POSTGRES_PASSWORD: telegrampass
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  scraper:
+    build:
+      context: .
+    container_name: telegram_scraper
+    command: python src/telegram_scraper.py
+    env_file:
+      - .env
+    volumes:
+      - ./telegram_scraper_session.session:/app/telegram_scraper_session.session
+      - ./data:/app/data
+      - ./logs:/app/logs
+    depends_on:
+      - postgres
+    restart: unless-stopped
+    environment:
+      # Pass DATABASE_URL here if scraper needs DB access (optional)
+      DATABASE_URL: postgresql://telegramuser:telegrampass@postgres:5432/telegramdb
+
+  api:
+    build:
+      context: .
+    container_name: telegram_api
+    command: ./start.sh
+    env_file:
+      - .env
+    volumes:
+      - ./telegram_scraper_session.session:/app/telegram_scraper_session.session
+      - ./data:/app/data
+      - ./logs:/app/logs
+    depends_on:
+      - scraper
+      - postgres
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgresql://telegramuser:telegrampass@postgres:5432/telegramdb
+
+  dbt:
+      build:
+        context: .
+        dockerfile: dbt.Dockerfile
+      container_name: dbt_transformer
+      depends_on:
+        - postgres
+      env_file:
+        - .env
+      volumes:
+        - ./telegram_dbt/telegram_project:/usr/app
+        - ./telegram_dbt/.dbt:/root/.dbt
+      working_dir: /usr/app
+      entrypoint: ["dbt"]   # ✅ So we can override everything after "dbt"
+
+    # command: ["dbt", "run"]   <-- comment this out
+
+
+  load_to_postgres:
+    build:
+      context: .
+    container_name: telegram_loader
+    depends_on:
+      - postgres
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./load_to_postgres.py:/app/load_to_postgres.py
+      - ./.env:/app/.env
+    working_dir: /app
+    command: ["python", "load_to_postgres.py"]
+    restart: "no"
+    environment:
+      DATABASE_URL: postgresql://telegramuser:telegrampass@postgres:5432/telegramdb
+
+volumes:
+  pgdata:

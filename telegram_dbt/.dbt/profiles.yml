@@ -1,0 +1,11 @@
+telegram_project:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: postgres
+      user: telegramuser
+      password: telegrampass
+      dbname: telegramdb
+      schema: raw
+      port: 5432

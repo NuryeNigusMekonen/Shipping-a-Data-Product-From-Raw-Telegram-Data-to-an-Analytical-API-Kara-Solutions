@@ -1,0 +1,397 @@
+[0m14:36:39.403615 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7948281f4d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79482719bfd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79482719bf70>]}
+
+
+============================== 14:36:39.406755 | 931da8bc-e417-480b-b29a-3efe306f22cd ==============================
+[0m14:36:39.406755 [info ] [MainThread]: Running with dbt=1.10.4
+[0m14:36:39.407366 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/home/nurye/.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt init kara_project', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:36:39.414817 [info ] [MainThread]: Creating dbt configuration folder at /home/nurye/.dbt
+[0m14:36:39.416264 [debug] [MainThread]: Starter project path: /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m14:36:39.419753 [info ] [MainThread]: 
+Your new dbt project "kara_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:36:39.420311 [info ] [MainThread]: Setting up your profile.
+[0m14:39:00.332219 [info ] [MainThread]: Profile kara_project written to /home/nurye/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:39:00.334214 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 141.00905, "process_in_blocks": "1544", "process_kernel_time": 0.121061, "process_mem_max_rss": "98396", "process_out_blocks": "80", "process_user_time": 1.759901}
+[0m14:39:00.335154 [debug] [MainThread]: Command `dbt init` succeeded at 14:39:00.334999 after 141.01 seconds
+[0m14:39:00.335868 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7948281f4d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7948270935e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79482719aaa0>]}
+[0m14:39:00.336589 [debug] [MainThread]: Flushing usage events
+[0m14:39:01.908228 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:39:43.309119 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b2f59cfcdc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b2f58cabd60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b2f58cabe20>]}
+
+
+============================== 14:39:43.312446 | 95de146b-e050-45e3-926c-a0df9de10879 ==============================
+[0m14:39:43.312446 [info ] [MainThread]: Running with dbt=1.10.4
+[0m14:39:43.313161 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/nurye/.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug --profile kara_project', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:39:43.322278 [info ] [MainThread]: dbt version: 1.10.4
+[0m14:39:43.322864 [info ] [MainThread]: python version: 3.10.18
+[0m14:39:43.323318 [info ] [MainThread]: python path: /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/bin/python3.10
+[0m14:39:43.323789 [info ] [MainThread]: os info: Linux-6.11.0-29-generic-x86_64-with-glibc2.39
+[0m14:39:43.393070 [info ] [MainThread]: Using profiles dir at /home/nurye/.dbt
+[0m14:39:43.393853 [info ] [MainThread]: Using profiles.yml file at /home/nurye/.dbt/profiles.yml
+[0m14:39:43.394320 [info ] [MainThread]: Using dbt_project.yml file at /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/dbt_project.yml
+[0m14:39:43.394981 [info ] [MainThread]: adapter type: postgres
+[0m14:39:43.395407 [info ] [MainThread]: adapter version: 1.9.0
+[0m14:39:43.395829 [info ] [MainThread]: Configuration:
+[0m14:39:43.396214 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:39:43.396589 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:39:43.396964 [info ] [MainThread]: Required dependencies:
+[0m14:39:43.397366 [debug] [MainThread]: Executing "git --help"
+[0m14:39:43.401687 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:39:43.402840 [debug] [MainThread]: STDERR: "b''"
+[0m14:39:43.403633 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:39:43.404420 [info ] [MainThread]: Connection:
+[0m14:39:43.405206 [info ] [MainThread]:   host: localhost
+[0m14:39:43.405947 [info ] [MainThread]:   port: 5432
+[0m14:39:43.406672 [info ] [MainThread]:   user: telegramuser
+[0m14:39:43.407385 [info ] [MainThread]:   database: telegramdb
+[0m14:39:43.408105 [info ] [MainThread]:   schema: public
+[0m14:39:43.408826 [info ] [MainThread]:   connect_timeout: 10
+[0m14:39:43.409532 [info ] [MainThread]:   role: None
+[0m14:39:43.410251 [info ] [MainThread]:   search_path: None
+[0m14:39:43.410962 [info ] [MainThread]:   keepalives_idle: 0
+[0m14:39:43.411674 [info ] [MainThread]:   sslmode: None
+[0m14:39:43.412376 [info ] [MainThread]:   sslcert: None
+[0m14:39:43.413093 [info ] [MainThread]:   sslkey: None
+[0m14:39:43.413817 [info ] [MainThread]:   sslrootcert: None
+[0m14:39:43.414511 [info ] [MainThread]:   application_name: dbt
+[0m14:39:43.415217 [info ] [MainThread]:   retries: 1
+[0m14:39:43.416247 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m14:39:43.571055 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m14:39:43.605065 [debug] [MainThread]: Using postgres connection "debug"
+[0m14:39:43.605893 [debug] [MainThread]: On debug: select 1 as id
+[0m14:39:43.606458 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:39:43.663496 [debug] [MainThread]: SQL status: SELECT 1 in 0.057 seconds
+[0m14:39:43.665846 [debug] [MainThread]: On debug: Close
+[0m14:39:43.666767 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m14:39:43.667394 [info ] [MainThread]: [31m1 check failed:[0m
+[0m14:39:43.668006 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/dbt_project.yml> not found
+
+[0m14:39:43.669353 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.44767007, "process_in_blocks": "64", "process_kernel_time": 0.159866, "process_mem_max_rss": "107284", "process_out_blocks": "32", "process_user_time": 1.735548}
+[0m14:39:43.670252 [debug] [MainThread]: Command `dbt debug` failed at 14:39:43.670078 after 0.45 seconds
+[0m14:39:43.670914 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:39:43.671524 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b2f59cfcdc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b2f5857ae90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b2f5854a6b0>]}
+[0m14:39:43.672234 [debug] [MainThread]: Flushing usage events
+[0m14:39:44.812898 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:42:47.388007 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79a6459b0dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79a64492fd60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79a64492fdc0>]}
+
+
+============================== 14:42:47.391484 | f9aedc1b-4f5b-4ca4-b558-38a80fdf0524 ==============================
+[0m14:42:47.391484 [info ] [MainThread]: Running with dbt=1.10.4
+[0m14:42:47.392250 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/nurye/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'invocation_command': 'dbt debug --profile kara_project', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:42:47.402100 [info ] [MainThread]: dbt version: 1.10.4
+[0m14:42:47.402778 [info ] [MainThread]: python version: 3.10.18
+[0m14:42:47.403303 [info ] [MainThread]: python path: /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/bin/python3.10
+[0m14:42:47.403815 [info ] [MainThread]: os info: Linux-6.11.0-29-generic-x86_64-with-glibc2.39
+[0m14:42:47.484652 [info ] [MainThread]: Using profiles dir at /home/nurye/.dbt
+[0m14:42:47.485546 [info ] [MainThread]: Using profiles.yml file at /home/nurye/.dbt/profiles.yml
+[0m14:42:47.486190 [info ] [MainThread]: Using dbt_project.yml file at /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/dbt_project.yml
+[0m14:42:47.487002 [info ] [MainThread]: adapter type: postgres
+[0m14:42:47.487529 [info ] [MainThread]: adapter version: 1.9.0
+[0m14:42:47.488049 [info ] [MainThread]: Configuration:
+[0m14:42:47.488522 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:42:47.488995 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:42:47.489453 [info ] [MainThread]: Required dependencies:
+[0m14:42:47.489952 [debug] [MainThread]: Executing "git --help"
+[0m14:42:47.493527 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:42:47.494165 [debug] [MainThread]: STDERR: "b''"
+[0m14:42:47.494595 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:42:47.495036 [info ] [MainThread]: Connection:
+[0m14:42:47.495449 [info ] [MainThread]:   host: localhost
+[0m14:42:47.495849 [info ] [MainThread]:   port: 5432
+[0m14:42:47.496236 [info ] [MainThread]:   user: telegramuser
+[0m14:42:47.496616 [info ] [MainThread]:   database: telegramdb
+[0m14:42:47.496988 [info ] [MainThread]:   schema: public
+[0m14:42:47.497370 [info ] [MainThread]:   connect_timeout: 10
+[0m14:42:47.497748 [info ] [MainThread]:   role: None
+[0m14:42:47.498129 [info ] [MainThread]:   search_path: None
+[0m14:42:47.498536 [info ] [MainThread]:   keepalives_idle: 0
+[0m14:42:47.498978 [info ] [MainThread]:   sslmode: None
+[0m14:42:47.499406 [info ] [MainThread]:   sslcert: None
+[0m14:42:47.499851 [info ] [MainThread]:   sslkey: None
+[0m14:42:47.500334 [info ] [MainThread]:   sslrootcert: None
+[0m14:42:47.500818 [info ] [MainThread]:   application_name: dbt
+[0m14:42:47.501297 [info ] [MainThread]:   retries: 1
+[0m14:42:47.502006 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m14:42:47.616727 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m14:42:47.641248 [debug] [MainThread]: Using postgres connection "debug"
+[0m14:42:47.641855 [debug] [MainThread]: On debug: select 1 as id
+[0m14:42:47.642259 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:42:47.657817 [debug] [MainThread]: SQL status: SELECT 1 in 0.015 seconds
+[0m14:42:47.658999 [debug] [MainThread]: On debug: Close
+[0m14:42:47.659511 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m14:42:47.659994 [info ] [MainThread]: [31m1 check failed:[0m
+[0m14:42:47.660408 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/dbt_project.yml> not found
+
+[0m14:42:47.661520 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.33811662, "process_in_blocks": "0", "process_kernel_time": 0.138055, "process_mem_max_rss": "107976", "process_out_blocks": "24", "process_user_time": 1.830741}
+[0m14:42:47.662248 [debug] [MainThread]: Command `dbt debug` failed at 14:42:47.662132 after 0.34 seconds
+[0m14:42:47.662723 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:42:47.663180 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79a6459b0dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79a644132e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79a6441026b0>]}
+[0m14:42:47.663723 [debug] [MainThread]: Flushing usage events
+[0m14:42:48.930974 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:16:59.154880 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7baf39cd8d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7baf38c6eaa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7baf38c6eb00>]}
+
+
+============================== 21:16:59.159315 | b273e08d-8bb1-4cb1-b2d2-bb92c65d5da5 ==============================
+[0m21:16:59.159315 [info ] [MainThread]: Running with dbt=1.10.4
+[0m21:16:59.160203 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/nurye/.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'invocation_command': 'dbt build', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:16:59.161052 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:16:59.162554 [debug] [MainThread]: Resource report: {"command_name": "build", "command_success": false, "command_wall_clock_time": 0.07135979, "process_in_blocks": "48840", "process_kernel_time": 0.126895, "process_mem_max_rss": "94332", "process_out_blocks": "16", "process_user_time": 1.433816}
+[0m21:16:59.163274 [debug] [MainThread]: Command `dbt build` failed at 21:16:59.163132 after 0.07 seconds
+[0m21:16:59.163870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7baf39cd8d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7baf38c6e3e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7baf38c6eb30>]}
+[0m21:16:59.164471 [debug] [MainThread]: Flushing usage events
+[0m21:17:00.664438 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:20:45.991450 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7baf0b100dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7baf0a0abd60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7baf0a0abdc0>]}
+
+
+============================== 07:20:45.995231 | 93cd1c55-05de-44a9-bd9a-8b882df34322 ==============================
+[0m07:20:45.995231 [info ] [MainThread]: Running with dbt=1.10.4
+[0m07:20:45.995959 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/nurye/.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt init telegram_dbt', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m07:20:46.006882 [debug] [MainThread]: Starter project path: /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m07:20:46.009852 [info ] [MainThread]: 
+Your new dbt project "telegram_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m07:20:46.010629 [info ] [MainThread]: Setting up your profile.
+[0m07:23:28.264360 [info ] [MainThread]: Profile telegram_dbt written to /home/nurye/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m07:23:28.268382 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 162.34196, "process_in_blocks": "54608", "process_kernel_time": 0.127029, "process_mem_max_rss": "98100", "process_out_blocks": "80", "process_user_time": 1.525359}
+[0m07:23:28.269237 [debug] [MainThread]: Command `dbt init` succeeded at 07:23:28.269087 after 162.34 seconds
+[0m07:23:28.269888 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7baf0b100dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7baf0a8d0970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7baf0a0abe20>]}
+[0m07:23:28.270595 [debug] [MainThread]: Flushing usage events
+[0m07:23:29.609296 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:21:57.278019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a14bc40cb50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a14bb3b3f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a14bb3b3eb0>]}
+
+
+============================== 14:21:57.283771 | 3d157b83-94de-4509-ac00-5f2181522121 ==============================
+[0m14:21:57.283771 [info ] [MainThread]: Running with dbt=1.10.4
+[0m14:21:57.284941 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/nurye/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m14:21:57.286272 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:21:57.288310 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.074425094, "process_in_blocks": "33392", "process_kernel_time": 0.073156, "process_mem_max_rss": "94476", "process_out_blocks": "8", "process_user_time": 1.10135}
+[0m14:21:57.289264 [debug] [MainThread]: Command `dbt run` failed at 14:21:57.289094 after 0.08 seconds
+[0m14:21:57.289985 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a14bc40cb50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a14bb3b36d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a14bb3b3f10>]}
+[0m14:21:57.290706 [debug] [MainThread]: Flushing usage events
+[0m14:21:58.884063 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:42:07.480612 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a195a4b8df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a195a355ea0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a195942ab30>]}
+
+
+============================== 23:42:07.483798 | 08d4afe5-e42d-4e46-a970-2f584cb3b040 ==============================
+[0m23:42:07.483798 [info ] [MainThread]: Running with dbt=1.10.4
+[0m23:42:07.484240 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/home/nurye/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run --select stg_telegram_messages', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:42:07.484659 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m23:42:07.485309 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.051302347, "process_in_blocks": "224", "process_kernel_time": 0.059991, "process_mem_max_rss": "94112", "process_out_blocks": "16", "process_user_time": 0.890871}
+[0m23:42:07.485679 [debug] [MainThread]: Command `dbt run` failed at 23:42:07.485606 after 0.05 seconds
+[0m23:42:07.485963 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a195a4b8df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a195a355cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a195942a950>]}
+[0m23:42:07.486263 [debug] [MainThread]: Flushing usage events
+[0m23:42:09.286692 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:43:43.515387 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75c17e00ce20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75c17d19f7f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75c17d19ff40>]}
+
+
+============================== 23:43:43.517784 | 159da605-2877-4863-8cda-6926af4887b5 ==============================
+[0m23:43:43.517784 [info ] [MainThread]: Running with dbt=1.10.4
+[0m23:43:43.518308 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/nurye/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run --select stg_telegram_messages', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:43:43.518826 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m23:43:43.519629 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.045797754, "process_in_blocks": "0", "process_kernel_time": 0.046967, "process_mem_max_rss": "94412", "process_out_blocks": "8", "process_user_time": 0.880385}
+[0m23:43:43.520064 [debug] [MainThread]: Command `dbt run` failed at 23:43:43.519981 after 0.05 seconds
+[0m23:43:43.520412 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75c17e00ce20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75c17d19fc40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75c17d19ff40>]}
+[0m23:43:43.520782 [debug] [MainThread]: Flushing usage events
+[0m23:43:44.926796 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:44:15.769873 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79d856100d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79d8550abd60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79d8550abfd0>]}
+
+
+============================== 23:44:15.771795 | 7836d445-4b57-4994-aaeb-70b314f51783 ==============================
+[0m23:44:15.771795 [info ] [MainThread]: Running with dbt=1.10.4
+[0m23:44:15.772216 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/nurye/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:44:15.782628 [info ] [MainThread]: dbt version: 1.10.4
+[0m23:44:15.782959 [info ] [MainThread]: python version: 3.10.18
+[0m23:44:15.783233 [info ] [MainThread]: python path: /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/bin/python3.10
+[0m23:44:15.783560 [info ] [MainThread]: os info: Linux-6.11.0-29-generic-x86_64-with-glibc2.39
+[0m23:44:15.839241 [info ] [MainThread]: Using profiles dir at /home/nurye/.dbt
+[0m23:44:15.839839 [info ] [MainThread]: Using profiles.yml file at /home/nurye/.dbt/profiles.yml
+[0m23:44:15.840743 [info ] [MainThread]: Using dbt_project.yml file at /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/dbt_project.yml
+[0m23:44:15.842137 [info ] [MainThread]: adapter type: postgres
+[0m23:44:15.843514 [info ] [MainThread]: adapter version: 1.9.0
+[0m23:44:15.844000 [info ] [MainThread]: Configuration:
+[0m23:44:15.844459 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:44:15.844878 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m23:44:15.845293 [info ] [MainThread]: Required dependencies:
+[0m23:44:15.845718 [debug] [MainThread]: Executing "git --help"
+[0m23:44:15.848115 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:44:15.848781 [debug] [MainThread]: STDERR: "b''"
+[0m23:44:15.849264 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:44:15.849654 [info ] [MainThread]: Connection:
+[0m23:44:15.850029 [info ] [MainThread]:   host: telegram_postgres
+[0m23:44:15.850374 [info ] [MainThread]:   port: 5432
+[0m23:44:15.850696 [info ] [MainThread]:   user: telegramuser
+[0m23:44:15.851014 [info ] [MainThread]:   database: telegramdb
+[0m23:44:15.851336 [info ] [MainThread]:   schema: raw
+[0m23:44:15.851651 [info ] [MainThread]:   connect_timeout: 10
+[0m23:44:15.852140 [info ] [MainThread]:   role: None
+[0m23:44:15.852724 [info ] [MainThread]:   search_path: None
+[0m23:44:15.853258 [info ] [MainThread]:   keepalives_idle: 0
+[0m23:44:15.853858 [info ] [MainThread]:   sslmode: None
+[0m23:44:15.854400 [info ] [MainThread]:   sslcert: None
+[0m23:44:15.854897 [info ] [MainThread]:   sslkey: None
+[0m23:44:15.855400 [info ] [MainThread]:   sslrootcert: None
+[0m23:44:15.855895 [info ] [MainThread]:   application_name: dbt
+[0m23:44:15.856433 [info ] [MainThread]:   retries: 1
+[0m23:44:15.857243 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m23:44:15.930522 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m23:44:15.946936 [debug] [MainThread]: Using postgres connection "debug"
+[0m23:44:15.947276 [debug] [MainThread]: On debug: select 1 as id
+[0m23:44:15.947528 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:44:15.948585 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+could not translate host name "telegram_postgres" to address: Temporary failure in name resolution
+
+[0m23:44:15.949519 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m23:44:15.949820 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m23:44:15.950091 [debug] [MainThread]: On debug: No close available on handle
+[0m23:44:15.950341 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m23:44:15.950646 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m23:44:15.950889 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/dbt_project.yml> not found
+
+[0m23:44:15.951133 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  could not translate host name "telegram_postgres" to address: Temporary failure in name resolution
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m23:44:15.951701 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.22361393, "process_in_blocks": "2984", "process_kernel_time": 0.097158, "process_mem_max_rss": "105992", "process_out_blocks": "16", "process_user_time": 0.996625}
+[0m23:44:15.952068 [debug] [MainThread]: Command `dbt debug` failed at 23:44:15.951997 after 0.22 seconds
+[0m23:44:15.952333 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m23:44:15.952598 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79d856100d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79d854957100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79d854955f30>]}
+[0m23:44:15.952920 [debug] [MainThread]: Flushing usage events
+[0m23:44:17.081057 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:19:18.859849 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73b7174f0dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73b71649fd60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73b71649fdc0>]}
+
+
+============================== 12:19:18.864002 | 53570f6a-011a-4f03-b507-7fc4065d38b3 ==============================
+[0m12:19:18.864002 [info ] [MainThread]: Running with dbt=1.10.4
+[0m12:19:18.864741 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/nurye/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:19:30.937249 [debug] [MainThread]: Starter project path: /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m12:19:30.942132 [info ] [MainThread]: 
+Your new dbt project "telegram_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:19:30.942840 [info ] [MainThread]: Setting up your profile.
+[0m12:20:25.590178 [info ] [MainThread]: Profile telegram_project written to /home/nurye/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:20:25.619151 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 66.82711, "process_in_blocks": "57936", "process_kernel_time": 0.129471, "process_mem_max_rss": "97928", "process_out_blocks": "88", "process_user_time": 1.585529}
+[0m12:20:25.620353 [debug] [MainThread]: Command `dbt init` succeeded at 12:20:25.620132 after 66.83 seconds
+[0m12:20:25.621110 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73b7174f0dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73b71638be20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73b71649eaa0>]}
+[0m12:20:25.621927 [debug] [MainThread]: Flushing usage events
+[0m12:20:27.236237 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:08:49.201784 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cff7ebb4d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cff7db37d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cff7db37df0>]}
+
+
+============================== 13:08:49.204791 | f0667696-3497-4c4c-a2bd-359946f31164 ==============================
+[0m13:08:49.204791 [info ] [MainThread]: Running with dbt=1.10.4
+[0m13:08:49.205426 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/nurye/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:08:49.206050 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:08:49.206976 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.04779112, "process_in_blocks": "152", "process_kernel_time": 0.060952, "process_mem_max_rss": "93792", "process_out_blocks": "16", "process_user_time": 0.893306}
+[0m13:08:49.207545 [debug] [MainThread]: Command `dbt run` failed at 13:08:49.207437 after 0.05 seconds
+[0m13:08:49.207997 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cff7ebb4d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cff7db376d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cff7db37d90>]}
+[0m13:08:49.208461 [debug] [MainThread]: Flushing usage events
+[0m13:08:50.719849 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:11:08.711010 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d7cbcff8dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d7cbbfa3d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d7cbbfa3dc0>]}
+
+
+============================== 14:11:08.712901 | 7c93fc98-8e79-4072-afb2-bfc52c49d9f9 ==============================
+[0m14:11:08.712901 [info ] [MainThread]: Running with dbt=1.10.4
+[0m14:11:08.713303 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/home/nurye/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:11:08.713688 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:11:08.714282 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.045928087, "process_in_blocks": "0", "process_kernel_time": 0.067072, "process_mem_max_rss": "94208", "process_out_blocks": "16", "process_user_time": 1.028109}
+[0m14:11:08.714626 [debug] [MainThread]: Command `dbt run` failed at 14:11:08.714566 after 0.05 seconds
+[0m14:11:08.714897 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d7cbcff8dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d7cbbfa36a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d7cbbfa3d60>]}
+[0m14:11:08.715172 [debug] [MainThread]: Flushing usage events
+[0m14:11:10.249602 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:39:30.185013 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7043fa6f0e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7043f9658e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7043f98837f0>]}
+
+
+============================== 14:39:30.186881 | 7c7c8bb4-b355-47e0-b9dc-8e773ff5d28f ==============================
+[0m14:39:30.186881 [info ] [MainThread]: Running with dbt=1.10.4
+[0m14:39:30.187302 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': './telegram_dbt/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt run --profiles-dir ./telegram_dbt/.dbt', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:39:30.187704 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:39:30.188309 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.04580849, "process_in_blocks": "0", "process_kernel_time": 0.048971, "process_mem_max_rss": "94532", "process_out_blocks": "8", "process_user_time": 0.873483}
+[0m14:39:30.188675 [debug] [MainThread]: Command `dbt run` failed at 14:39:30.188608 after 0.05 seconds
+[0m14:39:30.188954 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7043fa6f0e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7043fa593970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7043f98837f0>]}
+[0m14:39:30.189252 [debug] [MainThread]: Flushing usage events
+[0m14:39:32.340140 [debug] [MainThread]: An error was encountered while trying to flush usage events

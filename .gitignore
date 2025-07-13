@@ -1,0 +1,10 @@
+SD-venv/
+.env
+__pycache__/
+*.pyc
+*.pkl
+.vscode/
+.idea/
+dbt/target/
+dbt/dbt_modules/
+__init__.py
