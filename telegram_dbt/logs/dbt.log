@@ -163,3 +163,17 @@ Runtime Error
 [0m14:13:43.937542 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ea5f14c8dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ea5f04771f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ea5f04755d0>]}
 [0m14:13:43.937856 [debug] [MainThread]: Flushing usage events
 [0m14:13:45.173281 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:16:40.619713 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d2851bf4e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d2851a98730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d2850ba6b60>]}
+
+
+============================== 13:16:40.622597 | 693d6614-64f6-4aa0-b8ac-5958f932c28a ==============================
+[0m13:16:40.622597 [info ] [MainThread]: Running with dbt=1.10.4
+[0m13:16:40.623005 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/telegram_dbt/logs', 'profiles_dir': '/home/nurye/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m13:16:40.624712 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'telegram_project'
+[0m13:16:40.625347 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.04993798, "process_in_blocks": "16", "process_kernel_time": 0.063028, "process_mem_max_rss": "93748", "process_out_blocks": "8", "process_user_time": 0.913407}
+[0m13:16:40.625707 [debug] [MainThread]: Command `dbt run` failed at 13:16:40.625643 after 0.05 seconds
+[0m13:16:40.625993 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d2851bf4e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d2850ba6020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d2850ba6e30>]}
+[0m13:16:40.626279 [debug] [MainThread]: Flushing usage events
+[0m13:16:42.240493 [debug] [MainThread]: An error was encountered while trying to flush usage events

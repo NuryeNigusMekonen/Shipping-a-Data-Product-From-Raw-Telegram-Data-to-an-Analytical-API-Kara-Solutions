@@ -395,3 +395,35 @@ Runtime Error
 [0m14:39:30.188954 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7043fa6f0e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7043fa593970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7043f98837f0>]}
 [0m14:39:30.189252 [debug] [MainThread]: Flushing usage events
 [0m14:39:32.340140 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:16:10.052475 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e42d5bfcdc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e42d4bb3d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e42d4bb3dc0>]}
+
+
+============================== 13:16:10.055835 | eb43865f-eb8b-4492-b1b3-bfd7a656b4e3 ==============================
+[0m13:16:10.055835 [info ] [MainThread]: Running with dbt=1.10.4
+[0m13:16:10.056770 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/home/nurye/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:16:10.057182 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:16:10.058044 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.047973704, "process_in_blocks": "40120", "process_kernel_time": 0.084696, "process_mem_max_rss": "93472", "process_out_blocks": "16", "process_user_time": 0.907748}
+[0m13:16:10.058431 [debug] [MainThread]: Command `dbt run` failed at 13:16:10.058360 after 0.05 seconds
+[0m13:16:10.058718 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e42d5bfcdc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e42d4bb3760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e42d4bb3d60>]}
+[0m13:16:10.059010 [debug] [MainThread]: Flushing usage events
+[0m13:16:11.827612 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:16:25.645312 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c69e9704d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c69e84bfd60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c69e84bfdc0>]}
+
+
+============================== 13:16:25.647305 | 0a5b71a8-2ce6-4b09-88b6-23d20f562a05 ==============================
+[0m13:16:25.647305 [info ] [MainThread]: Running with dbt=1.10.4
+[0m13:16:25.647721 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/home/nurye/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:16:25.648121 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:16:25.648733 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.045587722, "process_in_blocks": "0", "process_kernel_time": 0.063945, "process_mem_max_rss": "94248", "process_out_blocks": "8", "process_user_time": 0.870255}
+[0m13:16:25.649109 [debug] [MainThread]: Command `dbt run` failed at 13:16:25.649042 after 0.05 seconds
+[0m13:16:25.649400 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c69e9704d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c69e84bf760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c69e84bfd60>]}
+[0m13:16:25.649691 [debug] [MainThread]: Flushing usage events
+[0m13:16:27.113188 [debug] [MainThread]: An error was encountered while trying to flush usage events
