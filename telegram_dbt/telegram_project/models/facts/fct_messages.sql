@@ -6,5 +6,6 @@ SELECT
     message_date::date AS date,
     sender_id,
     has_photo,
-    message_length
+    message_length,
+    text
 FROM {{ ref('stg_telegram_messages') }}

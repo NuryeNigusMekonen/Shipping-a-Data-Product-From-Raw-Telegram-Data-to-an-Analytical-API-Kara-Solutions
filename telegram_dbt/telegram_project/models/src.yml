@@ -6,3 +6,12 @@ sources:
     tables:
       - name: messages
         description: "Raw Telegram messages from JSON loader"
+        freshness:  #  explicitly ignore freshness checks
+          warn_after: null
+          error_after: null
+
+      - name: image_detections
+        description: "YOLO image detections"
+        freshness:   #  this avoids error since no loaded_at_field
+          warn_after: null
+          error_after: null

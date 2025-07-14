@@ -44,6 +44,7 @@ def main():
         print(f"Found {len(json_files)} JSON files to process.")
 
         for file in json_files:
+            channel_name = file.stem  # Use filename without extension as channel name
             with open(file, 'r', encoding='utf-8') as f:
                 messages = json.load(f)
                 for msg in messages:
@@ -53,7 +54,7 @@ def main():
                         ON CONFLICT (id) DO NOTHING
                     """, (
                         msg.get("id"),
-                        file.parent.name,  # Using subfolder name as channel
+                        channel_name,  # <-- Updated here
                         msg.get("date"),
                         msg.get("sender_id"),
                         msg.get("text"),

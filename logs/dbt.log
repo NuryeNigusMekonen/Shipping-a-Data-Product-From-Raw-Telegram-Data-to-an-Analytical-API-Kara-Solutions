@@ -427,3 +427,51 @@ Runtime Error
 [0m13:16:25.649400 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c69e9704d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c69e84bf760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c69e84bfd60>]}
 [0m13:16:25.649691 [debug] [MainThread]: Flushing usage events
 [0m13:16:27.113188 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:12:23.808059 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74357c4f8dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74357b4b3d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74357b4b3dc0>]}
+
+
+============================== 14:12:23.810597 | 1f9dc828-089d-4ae4-9f41-089fee26b18b ==============================
+[0m14:12:23.810597 [info ] [MainThread]: Running with dbt=1.10.4
+[0m14:12:23.811016 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/nurye/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt clean', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:12:23.811622 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:12:23.812425 [debug] [MainThread]: Resource report: {"command_name": "clean", "command_success": false, "command_wall_clock_time": 0.04591409, "process_in_blocks": "0", "process_kernel_time": 0.043005, "process_mem_max_rss": "94616", "process_out_blocks": "8", "process_user_time": 0.923123}
+[0m14:12:23.812845 [debug] [MainThread]: Command `dbt clean` failed at 14:12:23.812776 after 0.05 seconds
+[0m14:12:23.813233 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74357c4f8dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74357b4b36a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74357b4b3b20>]}
+[0m14:12:23.813595 [debug] [MainThread]: Flushing usage events
+[0m14:12:25.272655 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:12:28.949534 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77e0f00fcd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77e0ef0affd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77e0ef0aff70>]}
+
+
+============================== 14:12:28.951569 | 9c32fd37-a8b1-4568-a141-8990e9bc7835 ==============================
+[0m14:12:28.951569 [info ] [MainThread]: Running with dbt=1.10.4
+[0m14:12:28.951979 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/nurye/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt deps', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:12:28.952461 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:12:28.953073 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": false, "command_wall_clock_time": 0.04506542, "process_in_blocks": "0", "process_kernel_time": 0.049961, "process_mem_max_rss": "94540", "process_out_blocks": "8", "process_user_time": 0.877318}
+[0m14:12:28.953442 [debug] [MainThread]: Command `dbt deps` failed at 14:12:28.953374 after 0.05 seconds
+[0m14:12:28.953724 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77e0f00fcd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77e0ef0af6a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77e0ef0afb20>]}
+[0m14:12:28.954012 [debug] [MainThread]: Flushing usage events
+[0m14:12:30.598213 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:12:39.713807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d965fb4df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d964f47d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d964f47dc0>]}
+
+
+============================== 14:12:39.717411 | 59242fe8-73c5-4afb-af44-d74acd61aa58 ==============================
+[0m14:12:39.717411 [info ] [MainThread]: Running with dbt=1.10.4
+[0m14:12:39.718024 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/home/nurye/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m14:12:39.718766 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:12:39.719489 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.04720695, "process_in_blocks": "0", "process_kernel_time": 0.055083, "process_mem_max_rss": "94760", "process_out_blocks": "8", "process_user_time": 0.873331}
+[0m14:12:39.719862 [debug] [MainThread]: Command `dbt run` failed at 14:12:39.719796 after 0.05 seconds
+[0m14:12:39.720150 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d965fb4df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d964f47700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76d964f47d60>]}
+[0m14:12:39.720493 [debug] [MainThread]: Flushing usage events
+[0m14:12:41.248774 [debug] [MainThread]: An error was encountered while trying to flush usage events
