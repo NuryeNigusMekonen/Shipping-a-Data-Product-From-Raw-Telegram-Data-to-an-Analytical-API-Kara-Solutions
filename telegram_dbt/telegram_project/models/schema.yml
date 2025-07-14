@@ -21,7 +21,7 @@ models:
 
   - name: fct_messages
     columns:
-      - name: id
+      - name: message_id
         tests: [unique, not_null]
       - name: date
         tests: [not_null]

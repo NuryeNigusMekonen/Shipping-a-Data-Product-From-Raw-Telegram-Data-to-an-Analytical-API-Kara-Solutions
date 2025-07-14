@@ -1,9 +1,10 @@
-select
-    id,
-    channel as channel_name,
-    message_date::date as date,
+{{ config(materialized='table') }}
+
+SELECT
+    id AS message_id,
+    channel_name,
+    message_date::date AS date,
     sender_id,
-    length(text) as message_length,
     has_photo,
-    media_file
-from {{ ref('stg_telegram_messages') }}
+    message_length
+FROM {{ ref('stg_telegram_messages') }}

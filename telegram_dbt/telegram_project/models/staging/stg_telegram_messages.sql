@@ -1,11 +1,12 @@
-{{ config(materialized='table') }}
+{{ config(materialized='view') }}
 
-select
+SELECT
     id,
-    channel as channel_name,
-    date::timestamp as message_date,
+    channel AS channel_name,
+    CAST(date AS TIMESTAMP) AS message_date,
     sender_id,
     text,
     has_photo,
-    media_file
-from {{ source('raw', 'messages') }}
+    media_file,
+    LENGTH(text) AS message_length
+FROM {{ source('raw', 'messages') }}
