@@ -24,6 +24,7 @@ def channel_activity(channel_name: str, db: Session = Depends(get_db)):
 def search_messages(query: str = Query(..., min_length=2), db: Session = Depends(get_db)):
     results = crud.search_messages(db, query)
     return results
+
 @app.get("/")
 def root():
     return {"message": "Telegram Analytical API is running"}

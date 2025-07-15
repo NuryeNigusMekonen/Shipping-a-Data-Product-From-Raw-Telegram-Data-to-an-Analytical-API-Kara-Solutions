@@ -21,6 +21,10 @@ data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18560.jpg,18560,bottle,0.57
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18543.jpg,18543,cell phone,0.54697585105896
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18554.jpg,18554,bottle,0.6699173450469971
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18524.jpg,18524,bottle,0.571313738822937
+data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18574.jpg,18574,bottle,0.3063955307006836
+data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18574.jpg,18574,book,0.26841843128204346
+data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18577.jpg,18577,orange,0.4312964379787445
+data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18577.jpg,18577,book,0.42490410804748535
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18566.jpg,18566,bottle,0.6265128254890442
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18570.jpg,18570,bottle,0.800276517868042
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18502.jpg,18502,bottle,0.9542626738548279
@@ -49,6 +53,8 @@ data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18550.jpg,18550,cup,0.52547
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18489.jpg,18489,cell phone,0.54697585105896
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18515.jpg,18515,book,0.2760729491710663
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18557.jpg,18557,bottle,0.8194668292999268
+data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18578.jpg,18578,scissors,0.5904662609100342
+data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18578.jpg,18578,clock,0.28237277269363403
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18565.jpg,18565,bottle,0.7072619795799255
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18490.jpg,18490,refrigerator,0.3856722116470337
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18488.jpg,18488,bottle,0.7072619795799255
@@ -58,6 +64,12 @@ data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18476.jpg,18476,clock,0.282
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18556.jpg,18556,person,0.3762305974960327
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18530.jpg,18530,parking meter,0.4173095226287842
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18486.jpg,18486,cup,0.5254774689674377
+data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18576.jpg,18576,cup,0.5089807510375977
+data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18576.jpg,18576,book,0.363707572221756
+data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18576.jpg,18576,spoon,0.3630613684654236
+data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18576.jpg,18576,bowl,0.2997996211051941
+data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18576.jpg,18576,person,0.26143625378608704
+data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18576.jpg,18576,spoon,0.25693047046661377
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18526.jpg,18526,cup,0.5254774689674377
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18536.jpg,18536,bottle,0.476479709148407
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18535.jpg,18535,parking meter,0.5831798911094666
@@ -68,6 +80,7 @@ data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18504.jpg,18504,bottle,0.47
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18504.jpg,18504,bottle,0.3082919120788574
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18504.jpg,18504,bottle,0.2990022301673889
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18537.jpg,18537,bottle,0.5792630314826965
+data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18573.jpg,18573,bottle,0.5792630314826965
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18551.jpg,18551,bottle,0.571313738822937
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18499.jpg,18499,bottle,0.6265128254890442
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18475.jpg,18475,person,0.5585430860519409
@@ -79,6 +92,7 @@ data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18563.jpg,18563,person,0.37
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18480.jpg,18480,person,0.3762305974960327
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18492.jpg,18492,bottle,0.46264588832855225
 data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18491.jpg,18491,person,0.3762305974960327
+data/raw/telegram_media/2025-07-15/lobelia4cosmetics/18572.jpg,18572,bottle,0.476479709148407
 data/raw/telegram_media/2025-07-12/tikvahpharma/171836.jpg,171836,tv,0.8208199143409729
 data/raw/telegram_media/2025-07-12/tikvahpharma/171836.jpg,171836,cell phone,0.2610379755496979
 data/raw/telegram_media/2025-07-12/tikvahpharma/171875.jpg,171875,person,0.8608728051185608

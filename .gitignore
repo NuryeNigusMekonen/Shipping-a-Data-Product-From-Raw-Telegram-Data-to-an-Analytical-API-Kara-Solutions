@@ -9,3 +9,4 @@ dbt/target/
 dbt/dbt_modules/
 __init__.py
 *.pt
+*.session

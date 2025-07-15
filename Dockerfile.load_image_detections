@@ -7,7 +7,6 @@ RUN apt-get update && apt-get install -y gcc && rm -rf /var/lib/apt/lists/*
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY detect_objects.py .
 COPY load_image_detections.py .
 
-CMD ["bash", "-c", "python detect_objects.py && python load_image_detections.py"]
+CMD ["python3", "load_image_detections.py"]
