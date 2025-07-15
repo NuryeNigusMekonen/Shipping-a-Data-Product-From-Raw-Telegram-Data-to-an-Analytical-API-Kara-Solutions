@@ -24,7 +24,6 @@ Great! Here's a complete and professional `README.md` for your project — cover
 
 A full-stack data pipeline that scrapes product-related messages from Telegram channels, extracts structured information, applies computer vision enrichment using YOLO, transforms data into an analytical star schema with dbt, and orchestrates the workflow using Dagster.
 
----
 
 ##  Overview
 
