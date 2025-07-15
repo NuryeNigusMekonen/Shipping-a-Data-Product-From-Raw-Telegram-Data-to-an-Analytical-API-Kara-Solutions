@@ -32,7 +32,7 @@ This project is designed to turn raw Telegram messages into actionable business 
 
 ##  Project Structure
 
-```
+
 .
 ├── src/
 │   ├── telegram_scraper.py         # Scrapes product messages from Telegram channels
@@ -102,7 +102,7 @@ This project is designed to turn raw Telegram messages into actionable business 
 1. **Clone & Setup**
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/NuryeNigusMekonen/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions.git
    cd Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions
    python3 -m venv SD-venv
    source SD-venv/bin/activate
