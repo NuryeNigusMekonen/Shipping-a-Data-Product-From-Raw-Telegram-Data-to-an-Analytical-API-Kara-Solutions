@@ -1,0 +1,249 @@
+2025-07-15 00:10:30,123 - INFO - run_scraper() called
+2025-07-15 00:10:30,123 - INFO - Starting Telegram Scraper
+2025-07-15 00:10:30,124 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-15 00:10:30,347 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-15 00:10:31,967 - INFO - Scraping lobelia4cosmetics...
+2025-07-15 00:10:32,587 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:10:33,990 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:10:35,741 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:10:37,588 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:10:39,482 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:10:41,299 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:10:43,219 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:10:44,748 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:10:46,897 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:10:48,163 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:10:50,002 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:10:51,808 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:10:53,277 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:10:54,877 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:10:57,036 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:10:59,283 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:01,311 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:02,841 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:05,340 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:07,171 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:08,898 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:10,760 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:12,295 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:14,385 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:15,636 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:17,821 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:19,768 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:21,398 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:23,034 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:24,673 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:26,267 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:28,058 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:29,694 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:31,444 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:32,991 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:34,556 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:36,769 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:38,613 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:39,864 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:42,325 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:44,004 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:46,809 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:48,127 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:49,458 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:51,112 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:52,467 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:54,176 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:55,705 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:57,034 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:11:58,905 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:01,436 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:03,709 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:05,027 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:06,353 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:07,993 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:10,258 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:11,579 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:13,214 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:14,853 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:16,495 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:18,444 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:20,002 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:22,448 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:23,762 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:26,028 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:27,975 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:29,918 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:31,761 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:33,605 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:35,548 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:36,872 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:39,140 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:41,077 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:42,397 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:44,355 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:45,991 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:47,625 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:49,263 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:50,901 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:53,464 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:55,719 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:57,041 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:12:59,211 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:13:00,524 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:13:02,794 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:13:04,737 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:13:06,365 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:13:08,625 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:13:10,251 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:13:12,808 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:13:15,070 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:13:16,419 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:13:18,663 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:13:20,300 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:13:22,543 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:13:24,188 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:13:26,134 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:13:27,764 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:13:29,712 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:13:31,562 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 00:16:54,839 - INFO - Done lobelia4cosmetics - 300 msgs, 100 images.
+2025-07-15 00:17:04,849 - INFO - Scraping tikvahpharma...
+2025-07-15 00:17:06,013 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-07-15 00:17:06,014 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-07-15 00:17:06,022 - ERROR - Fatal Error in main(): Could not find a matching Constructor ID for the TLObject that was supposed to be read with ID fe685355. See the FAQ for more details. Remaining bytes: b'USh\xfeD!T\x18\x0c\x00\x00\x00MV\x92]\x00\x00\x00\x00\xc0\x13*\xa8)f\xd2M\x0fTikvah | Pharma\x0ctikvahpharma\x00\x00\x00\x11\x1cn\x1c\x02\x00\x00\x00\xdc\xc81\x1b\xbe\xaf\xd0S\x0f\x01\x08\x08\xd0\xfd\xe7\xfb?\xad\x14Q^]\xcd\x0f\x04\x00\x00\x00lG\x16a\x18\x04\x12\x9f\xfc\x05\xfe\x01\xff\xff\xff\x7fUSh\xfed \x10\x00\x0c\x00\x05\x00\x98\x13\xa9P\x00\x00\x00\x00\x1an\xfb^\xd5\xcd3\x86\rTikvah Health\x00\x00\x0btikvah_tena\x11\x1cn\x1c\x02\x00\x00\x00\x8b\xc41\x1b\xdd@\xd0S\x10\x01\x08\x08\xd0\xf9\xff\x00\xd9\xfdh\xa2\x8a\xf2\xd4\x8d\x0f\x00\x00\x00\x04\x00\x00\x001\xa1\xd8[\x98_\xa1q\xf9\x00\x00\x00USh\xfed \x00\x00\x0c\x00\x00\x00k=@I\x00\x00\x00\x00w\xbapKy\xcfc\xad\x06a user\x00\x0cHiddenSender\x00\x00\x00\x1c\x01\xc17E\xa2\x8b\\USh\xfed \x10\x00\x0c\x00\x00\x00HyX|\x00\x00\x00\x00\xad%\x8b)(\x98*\xfb\x07iPharma\tipharma12\x00\x00\x11\x1cn\x1c\x02\x00\x00\x00\x81\xc51\x1b\x99H(S\x10\x01\x08\x08\xd1\xcc\xe6\xeb\x18"1\xe9\xde\x8a(\xa0\x0f\x00\x00\x00\x04\x00\x00\x00\xf5\x1b\x16fUSh\xfed \x10\x00\x0c\x00\x00\x00\x19\xc3xp\x00\x00\x00\x00e\x8d\x94\x08\xe5\xd05{\x0cTikvah Sales\x00\x00\x00\x0fiPapkornPharma1\x11\x1cn\x1c\x02\x00\x00\x00\x9c\xcc1\x1bKf\x01S\x0f\x01\x08\x08\xd0\xfd\xe7\xfb?\xad\x14Q^]\xcd\x0f\x04\x00\x00\x00jwAeUSh\xfed \x00\x00\x0c\x10\x00\x00-\xea\xddg\x00\x00\x00\x00@\xd03Eow(M\x0eVivaMed Pharma\x00\rvivamedpharma\x00\x00\x11\x1cn\x1c\x02\x00\x00\x00\xb6\xc41\x1b\xf1?\x99P\r\x01\x08\x08\xd5\x1b\xfc\xd3\x9f\xbbE\x14P\x07\x00\x00\x04\x00\x00\x00Wb\xf3cUSh\xfe\x04!\x04\x00\x0c\x00\x00\x00\x9b\xfd=s\x00\x00\x00\x00I\xd5wp*\x8cZV!Afritag import@Nitsihit\xf0\x9f\x91\xa9\xe2\x80\x8d\xe2\x9a\x95\x00\x00\x11\x1cn\x1c\x02\x00\x00\x00\xc4\xcd1\x1b\xe1\xf4\x89Q\x13\x01\x08\x08\xbc\xab4w\xa5\x8eZ9\t\xeep\xb4QE\x00\x7f\x04\x00\x00\x00\xd9\xac\xabd\x18\x04\x12\x9f\xfe\x05\xfa\x03\xff\xff\xff\x7fUSh\xfed \x10\x00\x0c\x00\x00\x00\xf9\x91iU\x00\x00\x00\x00\xe7\x89\xb5H\xc11\x14\xdcCETHIO-AMERICAN MEDICAL TRAININGS( CPD ) & HEALTH CONSULTANCY CENTER\x05EAHCI\x00\x00\x11\x1cn\x1c\x02\x00\x00\x00d\xbb1\x1b\x93sxQ\x18\x01\x08\x08\x932\xf9\xc3\x1b\xbe\xd1\xbb\x91\xcfL\xfeX\xc5\x14QW\'kh#\x00\x00\x00\x04\x00\x00\x00\xd0\xc6d`USh\xfed \x00\x00\x0c\x00\x00\x00\x9a\xc3\xedx\x00\x00\x00\x00,\xa3J\xd3\x8a\x1e\xd9\x84\x07Tenadam\ntenadaminv\x00\x11\x1cn\x1c\x02\x00\x00\x00\xd0\xc21\x1b+\x93)R\x0e\x01\x08\x08\xd2Fv ~tQE\x16%\x1f\x00\x04\x00\x00\x002\x1bEfUSh\xfed \x10\x00\x0c\x04\x00\x00\xc30 E\x00\x00\x00\x00\x01\xc5\xc14p@\xdd\x0b\x0bHIMED SALES\x15himedmedicalequipment\x00\x00\x11\x1cn\x1c\x02\x00\x00\x00\xf7\xb71\x1b\x0e\x80\x18R\x0e\x01\x08\x08\xd4\xc4\x82n\xb9S\xda\x8a(\xa0\x0f\x00\x04\x00\x00\x00\x9f!D\\\x02\x00\x00\x00USh\xfe\x04!\x04\x00\x0c@\x06\x00\x98_\xa1q\xf9\x00\x00\x00VOr\xe3\x13a\x82\xff\x16Tikvah Health Messages\x00\x1c\x01\xc17)\x93Sh\x18\x04\x12\x9f\x00\x84\x02\x00\xff\xff\xff\x7f\n\x00\x00\x00\x00\x00\x00\x00\x98\x13\xa9P\x00\x00\x00\x00\x15\xc4\xb5\x1c\x03\x00\x00\x00"\x14\x0b\x02+@\x00\x02\x10\x00\x00\x00\x18\xac\'\x08\x00\x00\x00\x00P\xfbp\x95\xf2\xd2\x1e\xc3\x07Channel\x0bChannel_Bot\x06\xf7\xd1\x82\x02\x00\x00\x00\xa9\xa71\x1b\x18\xac\'\x08\x10\x01\x08\x08\xb1\xf2\xf9_\xedg4QEp3\xad\x1f\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00"\x14\x0b\x02+@\x01\x02\x10\x10\x00\x008\x16\xd9@\x00\x00\x00\x00\x17\xa5x\t\xaec\x81\xb2\x05Group\x00\x00\x11GroupAnonymousBot\x00\x00\x06\xf7\xd1\x82\x02\x00\x00\x00\xaa\xa81\x1b#\x8b\x99G\x12\x01\x08\x08\xa3\x98\xbe\xcf\x8c~\xf39\xce\x7fJ(\xa2\x98\x8f\x00\x01\x00\x00\x00\x03\x00\x00\x00IN\x00\x00"\x14\x0b\x02C\x00\x10\x00\x10\x00\x00\x00\xcc\xa6S \x00\x00\x00\x00|Rb\x93\xb4\x80\xac\x8d\x06Br\xc3\xafsh\x00\xc8}\x19{\x00\x00\x00\x00'
+Traceback (most recent call last):
+  File "/home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/src/telegram_scraper.py", line 104, in main
+    await scrape_channel(name, link, client)
+  File "/home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/src/telegram_scraper.py", line 59, in scrape_channel
+    async for message in client.iter_messages(link, limit=MAX_MESSAGES):
+  File "/home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/telethon/requestiter.py", line 74, in __anext__
+    if await self._load_next_chunk():
+  File "/home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/telethon/client/messages.py", line 184, in _load_next_chunk
+    r = await self.client(self.request)
+  File "/home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/telethon/client/users.py", line 92, in _call
+    result = await future
+  File "/home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/telethon/network/mtprotosender.py", line 641, in _handle_rpc_result
+    result = state.request.read_result(reader)
+  File "/home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/telethon/tl/tlobject.py", line 219, in read_result
+    return reader.tgread_object()
+  File "/home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/telethon/extensions/binaryreader.py", line 142, in tgread_object
+    return clazz.from_reader(self)
+  File "/home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/telethon/tl/types/messages.py", line 612, in from_reader
+    _x = reader.tgread_object()
+  File "/home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/telethon/extensions/binaryreader.py", line 140, in tgread_object
+    raise error
+telethon.errors.common.TypeNotFoundError: Could not find a matching Constructor ID for the TLObject that was supposed to be read with ID fe685355. See the FAQ for more details. Remaining bytes: b'USh\xfeD!T\x18\x0c\x00\x00\x00MV\x92]\x00\x00\x00\x00\xc0\x13*\xa8)f\xd2M\x0fTikvah | Pharma\x0ctikvahpharma\x00\x00\x00\x11\x1cn\x1c\x02\x00\x00\x00\xdc\xc81\x1b\xbe\xaf\xd0S\x0f\x01\x08\x08\xd0\xfd\xe7\xfb?\xad\x14Q^]\xcd\x0f\x04\x00\x00\x00lG\x16a\x18\x04\x12\x9f\xfc\x05\xfe\x01\xff\xff\xff\x7fUSh\xfed \x10\x00\x0c\x00\x05\x00\x98\x13\xa9P\x00\x00\x00\x00\x1an\xfb^\xd5\xcd3\x86\rTikvah Health\x00\x00\x0btikvah_tena\x11\x1cn\x1c\x02\x00\x00\x00\x8b\xc41\x1b\xdd@\xd0S\x10\x01\x08\x08\xd0\xf9\xff\x00\xd9\xfdh\xa2\x8a\xf2\xd4\x8d\x0f\x00\x00\x00\x04\x00\x00\x001\xa1\xd8[\x98_\xa1q\xf9\x00\x00\x00USh\xfed \x00\x00\x0c\x00\x00\x00k=@I\x00\x00\x00\x00w\xbapKy\xcfc\xad\x06a user\x00\x0cHiddenSender\x00\x00\x00\x1c\x01\xc17E\xa2\x8b\\USh\xfed \x10\x00\x0c\x00\x00\x00HyX|\x00\x00\x00\x00\xad%\x8b)(\x98*\xfb\x07iPharma\tipharma12\x00\x00\x11\x1cn\x1c\x02\x00\x00\x00\x81\xc51\x1b\x99H(S\x10\x01\x08\x08\xd1\xcc\xe6\xeb\x18"1\xe9\xde\x8a(\xa0\x0f\x00\x00\x00\x04\x00\x00\x00\xf5\x1b\x16fUSh\xfed \x10\x00\x0c\x00\x00\x00\x19\xc3xp\x00\x00\x00\x00e\x8d\x94\x08\xe5\xd05{\x0cTikvah Sales\x00\x00\x00\x0fiPapkornPharma1\x11\x1cn\x1c\x02\x00\x00\x00\x9c\xcc1\x1bKf\x01S\x0f\x01\x08\x08\xd0\xfd\xe7\xfb?\xad\x14Q^]\xcd\x0f\x04\x00\x00\x00jwAeUSh\xfed \x00\x00\x0c\x10\x00\x00-\xea\xddg\x00\x00\x00\x00@\xd03Eow(M\x0eVivaMed Pharma\x00\rvivamedpharma\x00\x00\x11\x1cn\x1c\x02\x00\x00\x00\xb6\xc41\x1b\xf1?\x99P\r\x01\x08\x08\xd5\x1b\xfc\xd3\x9f\xbbE\x14P\x07\x00\x00\x04\x00\x00\x00Wb\xf3cUSh\xfe\x04!\x04\x00\x0c\x00\x00\x00\x9b\xfd=s\x00\x00\x00\x00I\xd5wp*\x8cZV!Afritag import@Nitsihit\xf0\x9f\x91\xa9\xe2\x80\x8d\xe2\x9a\x95\x00\x00\x11\x1cn\x1c\x02\x00\x00\x00\xc4\xcd1\x1b\xe1\xf4\x89Q\x13\x01\x08\x08\xbc\xab4w\xa5\x8eZ9\t\xeep\xb4QE\x00\x7f\x04\x00\x00\x00\xd9\xac\xabd\x18\x04\x12\x9f\xfe\x05\xfa\x03\xff\xff\xff\x7fUSh\xfed \x10\x00\x0c\x00\x00\x00\xf9\x91iU\x00\x00\x00\x00\xe7\x89\xb5H\xc11\x14\xdcCETHIO-AMERICAN MEDICAL TRAININGS( CPD ) & HEALTH CONSULTANCY CENTER\x05EAHCI\x00\x00\x11\x1cn\x1c\x02\x00\x00\x00d\xbb1\x1b\x93sxQ\x18\x01\x08\x08\x932\xf9\xc3\x1b\xbe\xd1\xbb\x91\xcfL\xfeX\xc5\x14QW\'kh#\x00\x00\x00\x04\x00\x00\x00\xd0\xc6d`USh\xfed \x00\x00\x0c\x00\x00\x00\x9a\xc3\xedx\x00\x00\x00\x00,\xa3J\xd3\x8a\x1e\xd9\x84\x07Tenadam\ntenadaminv\x00\x11\x1cn\x1c\x02\x00\x00\x00\xd0\xc21\x1b+\x93)R\x0e\x01\x08\x08\xd2Fv ~tQE\x16%\x1f\x00\x04\x00\x00\x002\x1bEfUSh\xfed \x10\x00\x0c\x04\x00\x00\xc30 E\x00\x00\x00\x00\x01\xc5\xc14p@\xdd\x0b\x0bHIMED SALES\x15himedmedicalequipment\x00\x00\x11\x1cn\x1c\x02\x00\x00\x00\xf7\xb71\x1b\x0e\x80\x18R\x0e\x01\x08\x08\xd4\xc4\x82n\xb9S\xda\x8a(\xa0\x0f\x00\x04\x00\x00\x00\x9f!D\\\x02\x00\x00\x00USh\xfe\x04!\x04\x00\x0c@\x06\x00\x98_\xa1q\xf9\x00\x00\x00VOr\xe3\x13a\x82\xff\x16Tikvah Health Messages\x00\x1c\x01\xc17)\x93Sh\x18\x04\x12\x9f\x00\x84\x02\x00\xff\xff\xff\x7f\n\x00\x00\x00\x00\x00\x00\x00\x98\x13\xa9P\x00\x00\x00\x00\x15\xc4\xb5\x1c\x03\x00\x00\x00"\x14\x0b\x02+@\x00\x02\x10\x00\x00\x00\x18\xac\'\x08\x00\x00\x00\x00P\xfbp\x95\xf2\xd2\x1e\xc3\x07Channel\x0bChannel_Bot\x06\xf7\xd1\x82\x02\x00\x00\x00\xa9\xa71\x1b\x18\xac\'\x08\x10\x01\x08\x08\xb1\xf2\xf9_\xedg4QEp3\xad\x1f\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00"\x14\x0b\x02+@\x01\x02\x10\x10\x00\x008\x16\xd9@\x00\x00\x00\x00\x17\xa5x\t\xaec\x81\xb2\x05Group\x00\x00\x11GroupAnonymousBot\x00\x00\x06\xf7\xd1\x82\x02\x00\x00\x00\xaa\xa81\x1b#\x8b\x99G\x12\x01\x08\x08\xa3\x98\xbe\xcf\x8c~\xf39\xce\x7fJ(\xa2\x98\x8f\x00\x01\x00\x00\x00\x03\x00\x00\x00IN\x00\x00"\x14\x0b\x02C\x00\x10\x00\x10\x00\x00\x00\xcc\xa6S \x00\x00\x00\x00|Rb\x93\xb4\x80\xac\x8d\x06Br\xc3\xafsh\x00\xc8}\x19{\x00\x00\x00\x00'
+2025-07-15 01:04:57,798 - INFO - run_scraper() called
+2025-07-15 01:04:57,798 - INFO - Starting Telegram Scraper
+2025-07-15 01:04:57,799 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-15 01:04:58,138 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-15 01:04:59,982 - INFO - Scraping lobelia4cosmetics...
+2025-07-15 01:05:00,765 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:02,218 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:03,829 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:05,361 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:06,769 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:08,217 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:09,605 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:10,945 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:12,933 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:14,194 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:15,533 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:16,869 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:18,194 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:19,522 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:20,875 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:22,520 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:24,232 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:25,584 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:27,295 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:28,642 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:29,981 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:31,357 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:32,689 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:34,095 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:35,393 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:36,780 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:38,091 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:39,389 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:40,719 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:42,055 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:43,383 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:44,796 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:46,147 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:47,486 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:48,814 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:50,092 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:51,430 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:52,786 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:54,193 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:55,513 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:56,799 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:58,145 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:05:59,400 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:06:00,691 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-15 01:06:01,248 - ERROR - Fatal Error in main(): object NoneType can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/src/telegram_scraper.py", line 104, in main
+    await scrape_channel(name, link, client)
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/src/telegram_scraper.py", line 93, in main
+    async with TelegramClient(SESSION_NAME, API_ID, API_HASH) as client:
+  File "/home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/telethon/client/auth.py", line 672, in __aexit__
+    await self.disconnect()
+TypeError: object NoneType can't be used in 'await' expression
+2025-07-15 01:06:01,249 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<UpdateMethods._update_loop() running at /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/telethon/client/updates.py:452> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-07-15 01:06:01,249 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-8' coro=<UpdateMethods._keepalive_loop() running at /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/telethon/client/updates.py:486> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-07-15 01:06:01,249 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-5' coro=<MTProtoSender._send_loop() running at /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/telethon/network/mtprotosender.py:464> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-07-15 01:06:01,249 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-6' coro=<MTProtoSender._recv_loop() running at /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/telethon/network/mtprotosender.py:507> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-07-15 01:06:01,249 - ERROR - Unhandled error while receiving data
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/telethon/network/mtprotosender.py", line 507, in _recv_loop
+    body = await self._connection.recv()
+  File "/home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/telethon/network/connection/connection.py", line 308, in recv
+    result, err = await self._recv_queue.get()
+  File "/usr/lib/python3.10/asyncio/queues.py", line 161, in get
+    getter.cancel()  # Just in case getter is not done yet.
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 753, in call_soon
+    self._check_closed()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-07-15 01:06:01,250 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<Connection._send_loop() running at /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/telethon/network/connection/connection.py:322> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-07-15 01:06:01,250 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-4' coro=<Connection._recv_loop() running at /home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/telethon/network/connection/connection.py:341> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-07-15 01:06:01,250 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-19' coro=<Queue.get() running at /usr/lib/python3.10/asyncio/queues.py:159> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[_release_waiter(<Future pendi...ask_wakeup()]>)() at /usr/lib/python3.10/asyncio/tasks.py:387]>
+2025-07-15 01:06:01,250 - ERROR - Unexpected exception in the send loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nurye/Desktop/10_Academy/week_7/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-Kara-Solutions/SD-venv/lib/python3.10/site-packages/telethon/network/connection/connection.py", line 322, in _send_loop
+    self._send(await self._send_queue.get())
+  File "/usr/lib/python3.10/asyncio/queues.py", line 161, in get
+    getter.cancel()  # Just in case getter is not done yet.
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 753, in call_soon
+    self._check_closed()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed

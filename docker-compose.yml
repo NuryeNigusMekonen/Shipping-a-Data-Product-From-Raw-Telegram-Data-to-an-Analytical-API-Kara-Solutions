@@ -29,7 +29,6 @@ services:
       - postgres
     restart: unless-stopped
     environment:
-      # Pass DATABASE_URL here if scraper needs DB access (optional)
       DATABASE_URL: postgresql://telegramuser:telegrampass@postgres:5432/telegramdb
 
   api:
@@ -53,22 +52,19 @@ services:
       DATABASE_URL: postgresql://telegramuser:telegrampass@postgres:5432/telegramdb
 
   dbt:
-      build:
-        context: .
-        dockerfile: dbt.Dockerfile
-      container_name: dbt_transformer
-      depends_on:
-        - postgres
-      env_file:
-        - .env
-      volumes:
-        - ./telegram_dbt/telegram_project:/usr/app
-        - ./telegram_dbt/.dbt:/root/.dbt
-      working_dir: /usr/app
-      entrypoint: ["dbt"]   # ✅ So we can override everything after "dbt"
-
-    # command: ["dbt", "run"]   <-- comment this out
-
+    build:
+      context: .
+      dockerfile: dbt.Dockerfile
+    container_name: dbt_transformer
+    depends_on:
+      - postgres
+    env_file:
+      - .env
+    volumes:
+      - ./telegram_dbt/telegram_project:/usr/app
+      - ./telegram_dbt/.dbt:/root/.dbt
+    working_dir: /usr/app
+    command: ["dbt", "run"]
 
   load_to_postgres:
     build:
@@ -88,5 +84,35 @@ services:
     environment:
       DATABASE_URL: postgresql://telegramuser:telegrampass@postgres:5432/telegramdb
 
+  yolo_detector:
+    build:
+      context: .
+      dockerfile: Dockerfile.yolo
+    container_name: yolo_detector
+    volumes:
+      - ./data:/app/data
+      - ./run_yolo_on_images.py:/app/run_yolo_on_images.py
+      - ./load_image_detections.py:/app/load_image_detections.py
+    depends_on:
+      - postgres
+    working_dir: /app
+    command: bash -c "python run_yolo_on_images.py && python load_image_detections.py"
+  
+  dagster:
+    build:
+      context: ./telegram_pipeline
+      dockerfile: telegram_pipeline/Dockerfile  # <- explicitly point to the Dockerfile
+    container_name: dagster_ui
+    volumes:
+      - ./telegram_pipeline:/app
+    working_dir: /app
+    command: ["dagit", "-h", "0.0.0.0", "-p", "3000", "-w", "workspace.yaml"]
+    ports:
+      - "3000:3000"
+
+
+
+
 volumes:
   pgdata:
+

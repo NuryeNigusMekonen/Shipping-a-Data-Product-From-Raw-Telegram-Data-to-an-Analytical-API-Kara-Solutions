@@ -1,0 +1,12 @@
+.dockerignore  
+──────────────
+.venv
+__pycache__
+.git
+*.csv
+*.jpg
+*.json
+*.db
+data/
+logs/
+SD-venv/

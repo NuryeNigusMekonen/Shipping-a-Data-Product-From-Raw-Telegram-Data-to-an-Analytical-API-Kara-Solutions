@@ -7,7 +7,6 @@ psycopg2-binary
 sqlalchemy
 pandas
 python-dotenv
-dbt-postgres
 ultralytics
 fastapi
 dagster

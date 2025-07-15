@@ -6,11 +6,12 @@ from datetime import datetime
 from pathlib import Path
 from dotenv import load_dotenv
 from telethon import TelegramClient
-from telethon.errors import FloodWaitError
 from telethon.tl.types import MessageMediaPhoto
 
-# Hardcoded ROOT inside Docker
-ROOT_DIR = Path("/app")
+# Use environment variable ROOT_DIR, default to "/app" (inside Docker)
+ROOT_DIR = Path(os.getenv("ROOT_DIR", "/app"))
+
+# Load .env file from ROOT_DIR
 load_dotenv(dotenv_path=ROOT_DIR / ".env")
 
 API_ID = int(os.getenv("TELEGRAM_API_ID"))
@@ -29,14 +30,17 @@ SLEEP_BETWEEN_MSGS = 1
 SLEEP_BETWEEN_CHANNELS = 10
 
 today_str = datetime.now().strftime("%Y-%m-%d")
+
 RAW_MSG_DIR = ROOT_DIR / f"data/raw/telegram_messages/{today_str}"
 RAW_IMG_DIR = ROOT_DIR / f"data/raw/telegram_media/{today_str}"
 LOG_DIR = ROOT_DIR / "logs"
 
+# Create directories if they don't exist
 RAW_MSG_DIR.mkdir(parents=True, exist_ok=True)
 RAW_IMG_DIR.mkdir(parents=True, exist_ok=True)
-LOG_DIR.mkdir(exist_ok=True)
+LOG_DIR.mkdir(parents=True, exist_ok=True)
 
+# Setup logging
 log_file = LOG_DIR / f"scrape_log_{today_str}.log"
 logging.basicConfig(
     filename=log_file,
@@ -46,7 +50,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 async def scrape_channel(name, link, client):
-    logger.info(f" Scraping {name}...")
+    logger.info(f"Scraping {name}...")
     messages = []
     img_count = 0
     img_dir = RAW_IMG_DIR / name
@@ -72,7 +76,7 @@ async def scrape_channel(name, link, client):
                 msg["media_file"] = str(img_path)
                 img_count += 1
             except Exception as e:
-                logger.warning(f" Failed to download image: {e}")
+                logger.warning(f"Failed to download image: {e}")
 
         messages.append(msg)
         await asyncio.sleep(SLEEP_BETWEEN_MSGS)
@@ -81,10 +85,10 @@ async def scrape_channel(name, link, client):
     with open(out_file, "w", encoding="utf-8") as f:
         json.dump(messages, f, ensure_ascii=False, indent=2)
 
-    logger.info(f" Done {name} - {len(messages)} msgs, {img_count} images.")
+    logger.info(f"Done {name} - {len(messages)} msgs, {img_count} images.")
 
 async def main():
-    logger.info(" Starting Telegram Scraper")
+    logger.info("Starting Telegram Scraper")
     try:
         async with TelegramClient(SESSION_NAME, API_ID, API_HASH) as client:
             if not await client.is_user_authorized():
@@ -100,15 +104,18 @@ async def main():
                 await scrape_channel(name, link, client)
                 await asyncio.sleep(SLEEP_BETWEEN_CHANNELS)
     except Exception as e:
-        logger.error(f" Fatal Error in main(): {e}", exc_info=True)
+        logger.error(f"Fatal Error in main(): {e}", exc_info=True)
 
 def run_scraper():
-    logger.info(" run_scraper() called")
+    logger.info("run_scraper() called")
     loop = asyncio.new_event_loop()
     asyncio.set_event_loop(loop)
     try:
         loop.run_until_complete(main())
     except Exception as e:
-        logger.error(f" run_scraper() failed: {e}", exc_info=True)
+        logger.error(f"run_scraper() failed: {e}", exc_info=True)
     finally:
         loop.close()
+
+if __name__ == "__main__":
+    run_scraper()
