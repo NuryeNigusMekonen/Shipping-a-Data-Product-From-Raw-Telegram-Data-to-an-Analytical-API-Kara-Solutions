@@ -50,7 +50,6 @@ This project is designed to turn raw Telegram messages into actionable business 
 ├── api/
 │   └── main.py                     # FastAPI endpoint (Task 4 API service)
 └── requirements.txt
-```
 
 ---
 
