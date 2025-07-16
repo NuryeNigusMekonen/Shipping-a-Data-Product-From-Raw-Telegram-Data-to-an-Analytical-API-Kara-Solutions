@@ -182,6 +182,7 @@ Navigate to: [http://localhost:8000](http://localhost:8000) to see a visual DAG 
 
 ---
 DBT
+![starschema](screenshoot/dbt/wlgraph.png)
 ![dim_channels](screenshoot/dbt/dim_channels.png)
 ![fct image detections](screenshoot/dbt/fct_image_detections.png)'
 ![raw image detections](screenshoot/dbt/raw.image_detections.png)
