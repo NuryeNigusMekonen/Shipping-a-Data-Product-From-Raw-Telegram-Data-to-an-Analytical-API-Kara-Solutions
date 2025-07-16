@@ -1,3 +1,5 @@
-select distinct
+{{ config(materialized='table') }}
+
+SELECT DISTINCT
     channel_name
-from {{ ref('stg_telegram_messages') }}
+FROM {{ ref('stg_telegram_messages') }}

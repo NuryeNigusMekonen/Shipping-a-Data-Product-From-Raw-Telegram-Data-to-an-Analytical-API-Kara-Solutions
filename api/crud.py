@@ -46,7 +46,7 @@ def search_messages(db, query_text):
         LIMIT 50;
     """)
     result = db.execute(query, {"query_text": query_text})
-    return [dict(row._mapping) for row in result]  # ✅ necessary for FastAPI to serialize
+    return [dict(row._mapping) for row in result]  #  necessary for FastAPI to serialize
 
 
 

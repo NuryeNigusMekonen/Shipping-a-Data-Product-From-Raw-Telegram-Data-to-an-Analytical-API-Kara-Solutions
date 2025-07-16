@@ -1,5 +1,3 @@
--- models/facts/fct_image_detections.sql
-
 {{ config(materialized='table') }}
 
 SELECT

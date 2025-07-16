@@ -17,11 +17,9 @@ def find_all_images(base_dir):
 def main():
     # Load pretrained YOLOv8 model (default is 'yolov8n.pt', lightweight)
     model = YOLO('yolov8n.pt')
-
     # Find all images
     images = find_all_images(BASE_IMAGE_DIR)
     print(f"Found {len(images)} images to process.")
-
     results_data = []
 
     # Process each image

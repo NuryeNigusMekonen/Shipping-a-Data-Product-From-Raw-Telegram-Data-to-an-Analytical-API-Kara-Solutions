@@ -7,7 +7,7 @@ def scrape_job():
     scrape_telegram_data()
 
 @job
-def load_postgres_job():   # 👈 This should exactly be here
+def load_postgres_job():   
     load_raw_to_postgres()
 
 @job

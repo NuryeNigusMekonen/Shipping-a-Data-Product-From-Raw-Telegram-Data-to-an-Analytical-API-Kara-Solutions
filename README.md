@@ -33,7 +33,7 @@ This project is designed to turn raw Telegram messages into actionable business 
 ##  Project Structure
 
 ```
-.
+
 ├── src/
 │   ├── telegram_scraper.py         # Scrapes product messages from Telegram channels
 │   ├── load_messages_to_postgres.py
